@@ -14,11 +14,11 @@ wall clock).
 
 ## Measured dev score
 
-**+.47 net PnL** on the competition dev window (2 trades, win rate
+**+$8.47 net PnL** on the competition dev window (2 trades, win rate
 1.00, max drawdown 0.30%) — passes the dev gate (net PnL > $0).
 
 ## Entrypoint
 
- (Node 22, standard library plus the vendored SDK in
-) is the bot entrypoint: it reads one JSON bar
+main.ts (Node 22, standard library plus the vendored SDK in
+vendor/makefun-bars.ts) is the bot entrypoint: it reads one JSON bar
 per minute and answers with buy/sell orders.
